@@ -7,10 +7,10 @@
 ## 🖼️ Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](assets/executive_overview.png)
+![Executive Overview](assets/executive overview.png)
 
 ### Transaction Behavior & Operations
-![Transaction Behavior](assets/transaction_behavior.png)
+![Transaction Behavior](assets/Transaction Behavior & Operations.png)
 
 ---
 

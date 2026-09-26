@@ -4,16 +4,6 @@
 
 ---
 
-## 🖼️ Dashboard Preview
-
-### Executive Overview
-![Executive Overview](assets/executive_overview.png)
-
-### Transaction Behavior & Operations
-![Transaction Behavior](assets/transaction_behavior.png)
-
----
-
 ## 📌 Project Overview
 
 UPI Transaction Analysis Dashboard is an interactive Power BI analytics project built to analyze UPI transaction data and transform it into meaningful business insights.
@@ -32,6 +22,17 @@ The dashboard focuses on understanding:
 - How transaction activity differs between weekdays and weekends
 
 The final dashboard contains **2 analytical pages** connected through interactive navigation.
+
+---
+
+
+## 🖼️ Dashboard Preview
+
+### Executive Overview
+![Executive Overview](assets/executive_overview.png)
+
+### Transaction Behavior & Operations
+![Transaction Behavior](assets/transaction_behavior.png)
 
 ---
 

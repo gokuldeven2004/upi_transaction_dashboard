@@ -294,6 +294,60 @@ A **Home button** and **page navigation buttons** are used to move between the d
 **Power BI | DAX | Power Query | Data Cleaning | Data Modeling | Data Visualization | KPI Development | Business Analysis**
 
 ---
+# 🧮 Key DAX Measures
+
+The dashboard uses DAX to create calculated measures for:
+
+- Transaction volume
+- Transaction value
+- Successful transactions
+- Failed transactions
+- Success rate
+- Average transaction value
+- P2P transaction value
+- Weekend transaction value
+
+Some of the important measures used in the dashboard include:
+
+```DAX
+Total Transactions = COUNTROWS(UPI)
+
+Total Transaction Value =
+SUM(UPI[amount (INR)])
+
+Successful Transactions =
+CALCULATE(
+    [Total Transactions],
+    UPI[transaction_status] = "SUCCESS"
+)
+
+Failed Transactions =
+CALCULATE(
+    [Total Transactions],
+    UPI[transaction_status] = "FAILED"
+)
+
+Success Rate =
+DIVIDE(
+    [Successful Transactions],
+    [Total Transactions]
+)
+
+Average Transaction Value =
+AVERAGE(UPI[amount (INR)])
+
+P2P Transaction Value =
+CALCULATE(
+    [Total Transaction Value],
+    UPI[transaction type] = "P2P"
+)
+
+Weekend Transaction Value =
+CALCULATE(
+    [Total Transaction Value],
+    UPI[is_weekend] = TRUE()
+)
+---
 
 ## 🏁 Conclusion
 

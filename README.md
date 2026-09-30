@@ -255,49 +255,7 @@ The dataset was prepared using Power Query before creating the dashboard.
 A separate Date Table was also created for time-based analysis.
 
 ---
-# 🧮 Key DAX Measures
 
-Some of the important measures used in the dashboard include:
-
-```DAX
-Total Transactions = COUNTROWS(UPI)
-
-Total Transaction Value =
-SUM(UPI[amount (INR)])
-
-Successful Transactions =
-CALCULATE(
-    [Total Transactions],
-    UPI[transaction_status] = "SUCCESS"
-)
-
-Failed Transactions =
-CALCULATE(
-    [Total Transactions],
-    UPI[transaction_status] = "FAILED"
-)
-
-Success Rate =
-DIVIDE(
-    [Successful Transactions],
-    [Total Transactions]
-)
-
-Average Transaction Value =
-AVERAGE(UPI[amount (INR)])
-
-P2P Transaction Value =
-CALCULATE(
-    [Total Transaction Value],
-    UPI[transaction type] = "P2P"
-)
-
-Weekend Transaction Value =
-CALCULATE(
-    [Total Transaction Value],
-    UPI[is_weekend] = TRUE()
-)
----
 ## 🎨 Dashboard Design
 
 The dashboard uses a clean business-oriented design with:

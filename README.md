@@ -297,9 +297,7 @@ CALCULATE(
     [Total Transaction Value],
     UPI[is_weekend] = TRUE()
 )
-
 ---
-
 ## 🎨 Dashboard Design
 
 The dashboard uses a clean business-oriented design with:

@@ -294,7 +294,8 @@ A **Home button** and **page navigation buttons** are used to move between the d
 **Power BI | DAX | Power Query | Data Cleaning | Data Modeling | Data Visualization | KPI Development | Business Analysis**
 
 ---
-# 🧮 Key DAX Measures
+
+## 🧮 Key DAX Measures
 
 The dashboard uses DAX to create calculated measures for:
 
@@ -309,7 +310,6 @@ The dashboard uses DAX to create calculated measures for:
 
 Some of the important measures used in the dashboard include:
 
-```DAX
 Total Transactions = COUNTROWS(UPI)
 
 Total Transaction Value =
@@ -347,6 +347,7 @@ CALCULATE(
     [Total Transaction Value],
     UPI[is_weekend] = TRUE()
 )
+
 ---
 
 ## 🏁 Conclusion

@@ -224,7 +224,6 @@ The dataset was prepared using Power Query before creating the dashboard.
 - Date extraction
 - Month and month-number creation
 - Data transformation
-- Data modeling
 - Creation of calculated measures using DAX
 
 A separate Date Table was also created for time-based analysis.
@@ -266,7 +265,7 @@ A **Home button** and **page navigation buttons** are used to move between the d
 
 ## 🛠️ Skills Demonstrated
 
-**Power BI | DAX | Power Query | Data Cleaning | Data Modeling | Data Visualization | KPI Development | Business Analysis**
+**Power BI | DAX | Power Query | Data Cleaning | Data Visualization | KPI Development | Business Analysis**
 
 ---
 

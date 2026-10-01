@@ -1,6 +1,6 @@
 # 💳 UPI Transaction Analysis Dashboard
 
-> UPI Transaction Analysis Dashboard is an interactive Power BI project developed to analyze UPI transaction data and transform it into meaningful business insights. The dashboard provides an overall view of transaction performance and helps understand transaction behavior, operational patterns, and usage trends.
+UPI Transaction Analysis Dashboard is an interactive Power BI project developed to analyze UPI transaction data and transform it into meaningful business insights. The dashboard provides an overall view of transaction performance and helps understand transaction behavior, operational patterns, and usage trends.
 
 The project consists of two interactive dashboard pages: Executive Overview and Transaction Behavior & Operations, connected through simple page navigation
 

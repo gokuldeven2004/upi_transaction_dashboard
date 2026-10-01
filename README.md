@@ -18,8 +18,6 @@ The project consists of two interactive dashboard pages: Executive Overview and 
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are to:
-
 The main objective of this project is to understand UPI transaction performance and behavior using Power BI.
 
 The project analyzes transaction trends, transaction types, merchant categories, states, devices, networks, transaction timing, and success rates.
